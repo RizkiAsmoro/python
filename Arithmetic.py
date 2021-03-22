@@ -43,7 +43,7 @@ Urutan prioritas
 1. ()
 2. Eksponen **
 3. Perkalian, pembagian, modulus, floor division
-4. Penjumlahan, pengurangan
+4. Penjumlahan & pengurangan
 '''
 preced = val_a ** val_b * val_c + val_a / val_b - val_b % val_c // val_a 
 print (val_a,'**',val_b,'*',val_c,'+',val_a,'/',val_b,'-',val_b,'%',val_c,'//',val_a,'=',preced)  

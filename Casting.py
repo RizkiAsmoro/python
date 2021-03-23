@@ -1,4 +1,6 @@
-#casting tipe data yaitu merubah tipe data dari suatu tipe data ke tipe data lainnya
+'''
+casting tipe data yaitu merubah tipe data dari suatu tipe data ke tipe data lainnya
+'''
 print ("ini belajar casting")
 
 # INTEGER

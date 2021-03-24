@@ -1,4 +1,4 @@
-'''Perbandingan nilai sederhana menggunakan input'''
+'''Simple comparison using input value and without if else condition '''
 #tipe data harus diset float karena jika tidak maka inputan bertipe data string
 val_a = float(input ('Masukan nilai a =')) 
 val_b = float(input ('Masukan nilai b ='))

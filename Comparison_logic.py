@@ -22,6 +22,7 @@ print (a,'> 5:',x)
 print (a, '< 10:',y)
 print ('result x and y :', z)
 '''
+
 #condition ----2++++5----7++++10----
 a = float(input("\nInput value ----2++++5----7++++10----:"))
 z = (a>2 and a<5)or(a>7 and a<10)
@@ -41,3 +42,5 @@ print (a,'< 5 =',e)
 print (b,'and',c,'=',x,'as (X)')
 print (d,'and',e,'=',y,'as (Y)')
 print ('x or z =',z,'as (proof)')
+
+# CMIIW

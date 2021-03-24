@@ -1,17 +1,18 @@
-# Mempelajari cara dasar mendapatkan nilai dari iput 
+'''
+Get value from input
+'''
 
-# data yang ditampilkan otomatis berupa string
-huruf = input ("masukan huruf =")
-print (huruf, "tipe ",type(huruf))
+# data from input automaticaly as string type
+x = input ("insert name =")
+print ("Name is ",x,type(x))
 
 # get input integer / float
-
-#angka = int ( input ("masukan angka ="))
-angka = float (input ("masukan angka ="))
-print (angka, "tipe data",type(angka))
+#numbers = int ( input ("input numbers ="))
+y = float (input ("insert ages ="))
+print (y, "years old",type(y))
 
 
 # get input boolean
-biner = bool (int(input("masukan biner ="))) #input dicasting ke integer dulu lalu dicasting ke boolean
-print ("biner bernilai =",biner, "tipe data",type(biner))
+biner = bool (int(input("input biner ="))) #casting from input to string annd then casting to bolean
+print ("value of biner is =",biner, "and data type",type(biner))#the number Value is TRUE excep 0 
 

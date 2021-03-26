@@ -8,6 +8,7 @@ example : int 1 = 00000001
 a = 8
 b = 5
 c = a | b
+
 # Bitwise OR (|)
 print ('=============OR============')
 print ('    int:',a,',binary:',format(a,'08b'))  

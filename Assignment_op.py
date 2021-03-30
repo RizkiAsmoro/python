@@ -16,7 +16,3 @@ print ('then x *=2, x value tobe :',x) # its mean x * 2
 
 x /=4
 print ('then x /=4, x value tobe :',x) # its mean x / 2
-
-
-
-

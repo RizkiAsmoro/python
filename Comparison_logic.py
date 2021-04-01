@@ -12,7 +12,7 @@ print (a,'< 5:',x)
 print (a, '> 10:',y)
 print ('result x or y :', z)
 
-#AND-slice (irisan) both condition must be true
+#AND-slice both condition must be true
 #-----------5+++++++++10---------
 a = float(input("\nInput value greater than 5 AND less than 10 :"))
 x = a > 5 #compare input value is greater than 5 ?

@@ -1,4 +1,4 @@
-# Conversi suhu sederhana
+# Temperature COnversion
 print ("\n Temperature Conversion from Celcius\n")
 
 celcius = float(input('input celcius temperature = '))

@@ -1,59 +1,62 @@
-'''Simple comparison using input value and without if else condition '''
-#tipe data harus diset float karena jika tidak maka inputan bertipe data string
-val_a = float(input ('Masukan nilai a =')) 
-val_b = float(input ('Masukan nilai b ='))
+'''
+Simple comparison using input value and without if else condition
+The data type must be set float because otherwise the input is of type data string
+'''
 
-samadengan = val_a == val_b
-tdksamadengan = val_a != val_b
-lebih = val_a > val_b
-kurang = val_a < val_b
-kurangsama = val_a <= val_b 
-lebihsama = val_a >= val_b
+val_a = float(input ('Insert Value a =')) 
+val_b = float(input ('Insert Value b ='))
+
+equalto = val_a == val_b
+notequalto = val_a != val_b
+more_than = val_a > val_b
+less_than = val_a < val_b
+lessthanequalto = val_a <= val_b 
+morethanequalto = val_a >= val_b
 
 
-print (val_a,'=',val_b,'=',samadengan)
-print (val_a,'!=',val_b,'=',tdksamadengan)
-print (val_a,'>',val_b,'=',lebih)
-print (val_a,'<',val_b,'=',kurang)
-print (val_a,'<=',val_b,'=',kurangsama)
-print (val_a,'>=',val_b,'=',lebihsama)
+print (val_a,'=',val_b,'=',equalto)
+print (val_a,'!=',val_b,'=',notequalto)
+print (val_a,'>',val_b,'=',more_than)
+print (val_a,'<',val_b,'=',less_than)
+print (val_a,'<=',val_b,'=',lessthanequalto)
+print (val_a,'>=',val_b,'=',morethanequalto)
 
-#membandingkan menggunakan 'is' dan 'is not'
-#is sebagai object identity
-#contoh x = 5, maka x adalah object dan 5 adalah literal
-#hex adalah penyimpanan object pada memory
-#object harus dibandingkan dengan object
-#jika object dibandingkan dengan literal maka akan muncul SyntaxWarning
+#compare 'is' and 'is not'
+#is as object identity
+#example x = 5, then x is object and 5 is literal
+#hex is object storage in memory
+#object must be compare with object
+#if object compare with literal then will be SyntaxWarning
 print ('=========Object indentity (is)')
 x = 7
 y = 9
 identityis = x is y
-print ('Jika nilai')
-print ('Nilai X =',x,'dengan id hex',hex(id(x)))
-print ('nilai Y =',y,'dengan id hex',hex(id(y)))
+print ('If value')
+print ('value X =',x,'with id hex',hex(id(x)))
+print ('value Y =',y,'with id hex',hex(id(y)))
 print ('x is y =', identityis)
 
 x = 7
 y = 7
 identityis = x is y
-print ('Jika nilai')
-print ('Nilai X =',x,'dengan id hex',hex(id(x)))
-print ('nilai Y =',y,'dengan id hex',hex(id(y)))
+print ('If value')
+print ('value X =',x,'with id hex',hex(id(x)))
+print ('value Y =',y,'with id hex',hex(id(y)))
 print ('x is y =', identityis)
 
 print ('=========Object indentity (is not)')
 x = 7
 y = 9
 identityis = x is not y
-print ('Jika nilai')
-print ('Nilai X =',x,'dengan id hex',hex(id(x)))
-print ('nilai Y =',y,'dengan id hex',hex(id(y)))
+print ('If value')
+print ('value X =',x,'with id hex',hex(id(x)))
+print ('value Y =',y,'with id hex',hex(id(y)))
 print ('x is not y =', identityis)
 
 x = 7
 y = 7
 identityis = x is not y
-print ('Jika nilai')
-print ('Nilai X =',x,'dengan id hex',hex(id(x)))
-print ('nilai Y =',y,'dengan id hex',hex(id(y)))
+print ('If value')
+print ('value X =',x,'with id hex',hex(id(x)))
+print ('value Y =',y,'with id hex',hex(id(y)))
 print ('x is not y =', identityis)

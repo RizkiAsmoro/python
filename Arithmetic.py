@@ -1,49 +1,46 @@
-# Aritmatika sederhana dengan menggunakan inmput 
 '''
-val_a = 10
-val_b = 3
-val_c = 5
+Basic Arithmetic base on input
 '''
-val_a = float(input ('masukan nilai a ='))
-val_b = float(input ('masukan nilai b ='))
-val_c = float(input ('masukan nilai c ='))
+val_a = float(input ('Input value for a ='))
+val_b = float(input ('Input value for b ='))
+val_c = float(input ('Input value for c ='))
 
 
-# Penjumlahan
-jumlah = val_a + val_b
-print (val_a,"+",val_b,"=",jumlah)
+# addition
+add_result = val_a + val_b
+print (val_a,"+",val_b,"=",add_result)
 
-# Pengurangan
-kurang = val_a - val_b
-print (val_a,"-",val_b,"=",kurang)
+# subtraction
+subtract_result = val_a - val_b
+print (val_a,"-",val_b,"=",subtract_result)
 
-# Perkalian
-kali = val_a * val_b
-print (val_a,"*",val_b,"=",kali)
+# multiplication
+multipy_result = val_a * val_b
+print (val_a,"*",val_b,"=",multipy_result)
 
-# Pembagian
-bagi = val_a / val_b
-print (val_a,"/",val_b,"=",bagi)
+# division
+div_result = val_a / val_b
+print (val_a,"/",val_b,"=",div_result)
 
-# Eksponen
-pangkat = val_a ** val_b
-print (val_a,"pangkat",val_b,"=",pangkat)
+# Eksponent
+eks_result = val_a ** val_b
+print (val_a,"Eksponent",val_b,"=",eks_result)
 
-# Modulus / sisa pembagian
-mod = val_a % val_b
-print (val_a,"modulus",val_b,"=",mod)
+# Modulus / remainder of the division
+mod_result = val_a % val_b
+print (val_a,"modulus",val_b,"=",mod_result)
 
-# Floor division (pembulatan hasil pembagian)
-fd = val_a // val_b
-print (val_a,'floor division',val_b,'=',fd)
+# Floor division / rounding off the division
+fd_result = val_a // val_b
+print (val_a,'floor division',val_b,'=',fd_result)
 
-# Precedence (prioritas)
+# Precedence (priority)
 '''
-Urutan prioritas
+order of priority
 1. ()
 2. Eksponen **
-3. Perkalian, pembagian, modulus, floor division
-4. Penjumlahan & pengurangan
+3. multiplication, pdivision, modulus, floor division
+4. addition & subtraction
 '''
 preced = val_a ** val_b * val_c + val_a / val_b - val_b % val_c // val_a 
 print (val_a,'**',val_b,'*',val_c,'+',val_a,'/',val_b,'-',val_b,'%',val_c,'//',val_a,'=',preced)  

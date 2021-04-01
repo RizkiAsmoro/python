@@ -1,7 +1,7 @@
 '''
-Operasi Boolean
+Boolean operation
 NOT, OR, AND, XOR
-Tabel kebenaran
+True / False
 '''
 # Operation NOT
 print ('======NOT=====')

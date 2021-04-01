@@ -5,7 +5,6 @@ val_a = float(input ('Input value for a ='))
 val_b = float(input ('Input value for b ='))
 val_c = float(input ('Input value for c ='))
 
-
 # addition
 add_result = val_a + val_b
 print (val_a,"+",val_b,"=",add_result)

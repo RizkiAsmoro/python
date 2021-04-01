@@ -1,10 +1,10 @@
 '''
-casting tipe data yaitu merubah tipe data dari suatu tipe data ke tipe data lainnya
+Casting is Change data type
 '''
-print ("ini belajar casting")
+print ("Learning Casting")
 
 # INTEGER
-print ("====Merubah data INTEGER====")
+print ("====Change data INTEGER====")
 data_int = 9
 data_float = float(data_int) # data akan dibulatkan ke bawah
 data_str = str(data_int) # data yang ditampilan akan berupa string walaupun yang ditampilkan angka
@@ -16,7 +16,7 @@ print ("data = ", data_str,"bertipe data",type(data_str))
 print ("data = ", data_bool,"bertipe data", type(data_bool)) 
  
  # FLOAT
-print ("====Merubah data FLOAT====")
+print ("====Change data FLOAT====")
 data_float = 9.9
 data_int = int(data_float) # data akan dibulatkan ke bawah
 data_str = str(data_float) # data yang ditampilan akan berupa string walaupun yang ditampilkan angka
@@ -28,7 +28,7 @@ print ("data = ", data_str,"bertipe data",type(data_str))
 print ("data = ", data_bool,"bertipe data", type(data_bool)) 
 
 # BOOLEAN
-print ("====Merubah data BOOLEAN====")
+print ("====Change data BOOLEAN====")
 data_bool = True
 data_int = int(data_bool) # data akan dibulatkan ke bawah
 data_str = str(data_bool) # data yang ditampilan akan berupa string walaupun yang ditampilkan angka
@@ -41,7 +41,7 @@ print ("data = ", data_float,"bertipe data", type(data_float))
 
 
 # STRING
-print ("====Merubah data STRING====")
+print ("====Change data STRING====")
 data_str = "10"
 data_int = int(data_str) # String harus angka
 data_bool = bool(data_str) # bernilai False jika string kosong 

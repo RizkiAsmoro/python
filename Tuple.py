@@ -34,4 +34,23 @@ b.remove("ace")
 a=tuple(b)
 print("->how to remove tuple :",a)
 
+#extract value into variable
+a=("luffy","ace")
+(rubber,fire) = a
+print("->",rubber)
+print("->",fire)
+
+a=("luffy","ace","sabo")
+(rubber, *fire)=a
+print("->",rubber)
+print("->",fire)
+
+#join tuple and multiply
+a=("luffy","sabo","ace")
+b=("rubber","fire","fire")
+c=a + b # join content a and b 
+d=a*2 # make multiply content
+print(c)
+print(d)
+
 

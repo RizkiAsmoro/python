@@ -6,6 +6,7 @@ LIST
 '''
 
 #List are defined as objects with the data type 'list' -> <class 'list'>
+#this is how to access list
 players = ["ronaldo", "messi", "neymar", "mbape", "ronaldo", "haland"]
 print("This is list of top football players :\n",players, (type(players)))
 print("->Number of items : ",len(players))#determine how many items in a list, if there is the same list item it will be counted

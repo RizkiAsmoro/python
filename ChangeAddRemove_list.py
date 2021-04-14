@@ -24,7 +24,7 @@ crew = ["nami","robin","hancock","reiju","monet"]
 crew[1:3] = ["stussy"]#new values item will be insert specify, remaining list in specify range will remove
 print("->change item range 1-2:\n",crew)
 
-print("===================ADD==================")
+print("===================ADD & Update==================")
 #append()
 crew = ["nami","robin","hancock","reiju","monet"]
 crew.append("vivi")#add item to the end list

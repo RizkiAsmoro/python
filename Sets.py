@@ -91,4 +91,3 @@ cities = {"jakarta","bandung","surabaya"}
 cities2 = {"jakarta","bandung","jayapura"}
 x = cities.symmetric_difference(cities2)
 print("->return the differences :", x)
-

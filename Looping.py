@@ -1,5 +1,5 @@
 '''
-For Loop
+FOR LOOP
 '''
 
 #iterable list
@@ -25,5 +25,3 @@ for subCart in cart: # get list each layer
     print(subCart) # print list 
     for component in subCart: #get each component
         print(component)
-
-

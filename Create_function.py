@@ -7,7 +7,7 @@ def function():
 #call function
 function()
 
-print(20*"=","perimeter square fuction")
+print(20*"=","perimeter of square fuction")
 #define dunction and create formula
 def perimeter_square(a):
     p = a * 4
@@ -15,7 +15,7 @@ def perimeter_square(a):
 function() # call the function inside the other function
 perimeter_square(2) # set input value 
 
-print(20*"=","perimeter rectangle fuction")
+print(20*"=","perimeter of rectangle fuction")
 def perimeter_rectangle():
     l = 3
     w = 5
@@ -23,3 +23,17 @@ def perimeter_rectangle():
     print("if length is ",l,"and width is ",w)
     print("perimeter rectangle is :",p)
 perimeter_rectangle()
+
+print(20*"=","function argument")
+def captain(name):#argument
+    print("Captain of pirates:",name)
+captain("luffy")#input of argument
+
+def crew(name,ability): 
+    print("One of crew :",name)
+    print("Ability :", ability)
+crew(name="zoro", ability="swords") #keywords()
+crew(ability="cooking", name="sanji", ) #keywords()
+crew("nami","navigator") #keywords()
+
+

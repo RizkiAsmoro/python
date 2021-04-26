@@ -25,6 +25,7 @@ def perimeter_rectangle():
 perimeter_rectangle()
 
 print(20*"=","function argument")
+#function using argument and keyword
 def captain(name):#argument
     print("Captain of pirates:",name)
 captain("luffy")#input of argument
@@ -36,4 +37,10 @@ crew(name="zoro", ability="swords") #keywords()
 crew(ability="cooking", name="sanji", ) #keywords()
 crew("nami","navigator") #keywords()
 
-
+#function using default
+def emperor(name,power="dragon"): #set default
+    print("one of emperor :",name)
+    print("power :", power)
+emperor("kaido")
+emperor(name="big mom", power="soul")
+#emperor(power="dragon") # will missing requirement positional "name".

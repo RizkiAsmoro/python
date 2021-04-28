@@ -2,18 +2,18 @@
 Function Return Value
 so that the function can be used again
 '''
-def SquarePerimeter(argument):
-    total = argument * 4
-    print("-a box with each side of",argument,"cm then the perimeter is", total)
+def multiplication(value1, value2):
+    total = value1 * value2
+    print("a.",value1, "x", value2, "=",total)
     return total
-a = SquarePerimeter(2)
-print("-Value",a) #the function can be used again and print
+def sum(value1, value2):
+    total = value1 + value2
+    print("b.",value1, "+", value2, "=",total)
+    return total
 
-print(30*"=")
-
-def multiplication(value1,value2):
-    total : value1 * value2
-    print(value1,"x",value2,"=",total)
-    return total 
-x = multiplication(4,3)
-print(x)
+a = multiplication(2, 5)
+b = sum(3, 4)
+c = a - b
+print("a =",a) 
+print("b =",b) 
+print("a - b =",c) #the function can be used again and print

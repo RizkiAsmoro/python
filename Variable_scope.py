@@ -1,5 +1,5 @@
 '''
-Variable Scope Global and Local
+Scope Variable Global and Local
 '''
 # Local Variable
 name01 = "Jaka"
@@ -20,11 +20,11 @@ def changeNumber(newNumber):
     number = newNumber
     print("-changing the number from 10 tobe :",number)
 def changeRole(new02Number,new02Role):
-    global number,role
+    global number,role #the assign global variable 
     number = new02Number
     role = new02Role
     print("-changing the role from striker tobe :",role)
     
 changeNumber(100)
-changeRole(200,"midfielder")
+changeRole(200,"midfielder") #change number again
 print("-change again the number tobe:", number,"the role is",role) #the value of variable number is changed

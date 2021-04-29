@@ -44,3 +44,11 @@ def emperor(name,power="dragon"): #set default
 emperor("kaido")
 emperor(name="big mom", power="soul")
 #emperor(power="dragon") # will missing requirement positional "name".
+
+# Lambda Function 
+# anonymous function using lambda
+print(20*"=")
+
+sum = lambda x,y : x+y
+result = sum(10,12)
+print(result)

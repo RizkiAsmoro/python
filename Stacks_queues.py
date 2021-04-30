@@ -18,7 +18,7 @@ print("-add 8 in list", numbers)
 numbers.pop()
 print("-Last in - first out",numbers)
 
-#Queues
+#Queues (using library deque)
 print(25*"=","QUEUES")
 numbers = deque([1,2,3,4,5,6])
 print("-list",numbers)

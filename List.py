@@ -78,12 +78,12 @@ data3 = data1 + data2
 print("data1 + data 2 =\n",data3)
 #using append
 data1 = ["luffy", "zoro", "sanji", "usop"]
-data2 = ["franky", "jimbei", "chopper"]
+data2 = ["franky", "jimbei", "chopper", "brook"]
 for x in data2:
     data1.append(x)
 print("data1 append data2 =\n",data1)
 #using extend()
-data1 = ["luffy", "zoro", "sanji", "usop"]
+data1 = ["luffy", "zoro", "sanji", "usop","brook"]
 data2 = ["franky", "jimbei", "chopper"]
 data1.extend(data2)
 print(data1)

@@ -38,3 +38,21 @@ doflamingo.name = "donqixote doflamingo"
 
 mihawk.power()
 doflamingo.power2("and the cruel one")#input the condition
+
+
+#how to use __init__ in class and method
+print("============USE __init__============")
+
+class marine():
+    def __init__(self,input_name, input_power): #input argument()
+        self.name = input_name #atribute
+        self.power = input_power
+z = marine("garp","haki") #init will be executed when class marine called
+print(z.name,z.power)
+
+'''
+how __init__ works:
+1. def __init__ will br exceuted when z=marine() is called
+2. we can put the argumen like (self,input_name) inside, to fill in self.name = input_name to initialization
+3. __init__ will be executed when initialization object
+'''

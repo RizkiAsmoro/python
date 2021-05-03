@@ -1,5 +1,6 @@
 '''
 Class and Method
+__init__
 '''
 #CLASS
 print("===============CLASS===============")

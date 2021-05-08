@@ -32,7 +32,7 @@ class Parent():
     def check (self):
         print("name :",self.name,"\nage:",self.age,"\naddres:",self.addres)
 
-class Child(Parent): #inheritance (all the object owned by Parent, owned by chid too)
+class Child(Parent): #class object get all object in parent and overwritten 
     def check(self):
         print("-object in parent has been overwritten")
 

@@ -1,0 +1,2 @@
+data create by mode create 'x'
+delete the data2.txt before running the program

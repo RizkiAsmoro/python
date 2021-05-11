@@ -1,1 +1,4 @@
 This is data text, created by python
+this is 2nd row data text
+this is 3rd row data text
+this text made using append
